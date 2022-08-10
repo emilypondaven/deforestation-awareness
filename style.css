@@ -1,0 +1,219 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  background-color: #DAD7CD;
+  font-size: 18px;
+  color: #344E41;
+  padding: 30px;
+  font-family: 'Kanit', sans-serif;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  font-size: 5em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  text-align: center;
+}
+
+.topic {text-align: center;}
+
+.main {
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.bodytext {
+  padding-top: 2%;
+  font-size: 1.2em;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#large {
+  font-size: 60px;
+}
+
+.big {
+  font-size: 40px;
+}
+
+#mm {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+/* STYLE IMAGES */
+header {
+  position: relative;
+  text-align: center;
+  color: #DAD7CD;
+  height: 600px;
+  width: 96vw;
+  background: -webkit-linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url("assets/monk.jpg");
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url("assets/monk.jpg"); /* The least supported option. */
+}
+
+#title {
+  position: relative;
+  top: 73%;
+  left: 50%;
+  font-size: 170px;
+  transform: translate(-50%, -50%);
+  padding-bottom: 1em;
+}
+
+#below-title {
+  position: relative;
+  top: 8%;
+}
+
+.flexboxContainer1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flexboxContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background: #3A5A40;
+  color: #A3B18A;
+}
+
+.flexItem {
+  flex-basis: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.flexItem2 {
+  flex-basis: 100%;
+  text-align: right;
+  padding: 10px;
+}
+
+.flexItem1 {
+  flex-basis: 100%;
+  text-align: left;
+  padding: 10px;
+}
+
+.headings {
+  font-size: 40px;
+}
+/* STYLE NAV BAR */
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color:#344E41; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 15px 22px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #DAD7CD;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #A3B18A;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* ADD MORE! */
+#donateBtn {
+  background: #588157;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+  color: #DAD7CD;
+  font-size: 1em;
+}
+
+#factBtn {
+  background: #588157;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+  color: #DAD7CD;
+  font-size: 1em;
+}
+
+.genFact {
+  background: #A3B18A;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+#quote {
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #588157;
+}
+
+#message {
+  background: #3A5A40;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 30px;
+  color: #A3B18A;
+}
