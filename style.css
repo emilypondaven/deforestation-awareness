@@ -108,6 +108,13 @@ header {
   padding: 10px;
 }
 
+.flexItem3 {
+  flex-basis: 100%;
+  text-align: left;
+  padding: 10px;
+  padding-left: 30px;
+}
+
 .headings {
   font-size: 40px;
 }
